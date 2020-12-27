@@ -1,0 +1,37 @@
+body{
+  background-color: #CFCFCF;
+  text-align:center;
+  margin-top:200px;
+}
+#Header {
+  position: sticky;
+  background: yellow;
+  left:0;
+  right:0;
+  top:0;
+  height:120px;
+  z-index: 2;
+}
+.text {
+  position: relative;
+  background: red;
+
+  z-index: 1;
+}
+.banner {
+  position: sticky;
+  left:0;
+  right:0;
+  top:0px;
+  z-index: 3;
+}
+.animal-audio{
+  visibility: hidden;
+}
+.animals{
+  transition: all .3s;
+}
+.animals:hover{
+  color: blue;
+  transform: scale(2);
+}
